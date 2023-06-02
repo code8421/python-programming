@@ -18,4 +18,5 @@ def guess(x):
     print(f'WOW! 정답입니다! 축하합니다. \n정답: {random_number}')
 
 
-guess(10)
+if __name__ == '__main__':
+    guess(100)
